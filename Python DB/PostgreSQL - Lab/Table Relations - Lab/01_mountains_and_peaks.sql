@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS mountains (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(50)
+);
+
+CREATE TABLE IF NOT EXISTS peaks (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(50),
+    mountain_id INTEGER,
+        CONSTRAINT fk_peaks_mountains
+            FOREIGN KEY (mountain_id)
+            REFERENCES mountains(id)
+);
