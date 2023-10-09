@@ -17,8 +17,8 @@ CREATE TABLE people (
     passport_id INT,
 
     CONSTRAINT fk_people_passports
-    FOREIGN KEY (passport_id)
-    REFERENCES passports(id)
+        FOREIGN KEY (passport_id)
+            REFERENCES passports(id)
 );
 
 INSERT INTO
@@ -26,8 +26,7 @@ INSERT INTO
 VALUES
     ('Roberto', 43300.00, 101),
     ('Tom', 56100.00, 102),
-<<<<<<< HEAD
     ('Yana', 60200.00, 100);
-=======
-    ('Yana', 60200.00, 100);
->>>>>>> aaa19a7ca3989ef615fd21da46a628eadf5f384b
+
+
+
