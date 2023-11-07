@@ -189,14 +189,14 @@ def change_reviewer_name(review_name, new_name):
     for r in review_for_update:
         r.reviewer_name = new_name
         r.save()
-    return review_for_update
+    return Review.objects.all()
 
 
-# print("Change Alice Johnson to A.J.:")
-# print(change_reviewer_name("Alice Johnson", "A.J."))
-# print()
-# print("Change Bob Wilson to Bobby W.:")
-# print(change_reviewer_name("Bob Wilson", "Bobby W."))
-# print()
-# print("Change A.J. to A. Johnson:")
-# print(change_reviewer_name("A.J.", "A. Johnson"))
+print("Change Alice Johnson to A.J.:")
+print(change_reviewer_name("Alice Johnson", "A.J."))
+print()
+print("Change Bob Wilson to Bobby W.:")
+print(change_reviewer_name("Bob Wilson", "Bobby W."))
+print()
+print("Change A.J. to A. Johnson:")
+print(change_reviewer_name("A.J.", "A. Johnson"))
