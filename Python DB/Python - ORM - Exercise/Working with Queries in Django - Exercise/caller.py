@@ -296,24 +296,24 @@ dungeon2 = Dungeon(
     difficulty="Easy",
 )
 
-# Bulk save the instances
-bulk_create_dungeons([dungeon1, dungeon2])
+# # Bulk save the instances
+# bulk_create_dungeons([dungeon1, dungeon2])
 
-# Update boss's health
-update_dungeon_bosses_health()
+# # Update boss's health
+# update_dungeon_bosses_health()
 
-# Show hard dungeons
-hard_dungeons_info = show_hard_dungeons()
-print(hard_dungeons_info)
+# # Show hard dungeons
+# hard_dungeons_info = show_hard_dungeons()
+# print(hard_dungeons_info)
 
-# Change dungeon names based on difficulty
-update_dungeon_names()
-dungeons = Dungeon.objects.all()
-print(dungeons[0].name)
-print(dungeons[1].name)
+# # Change dungeon names based on difficulty
+# update_dungeon_names()
+# dungeons = Dungeon.objects.all()
+# print(dungeons[0].name)
+# print(dungeons[1].name)
 
-# Change the dungeon rewards
-update_dungeon_rewards()
-dungeons = Dungeon.objects.all()
-print(dungeons[0].reward)
-print(dungeons[1].reward)
+# # Change the dungeon rewards
+# update_dungeon_rewards()
+# dungeons = Dungeon.objects.all()
+# print(dungeons[0].reward)
+# print(dungeons[1].reward)
