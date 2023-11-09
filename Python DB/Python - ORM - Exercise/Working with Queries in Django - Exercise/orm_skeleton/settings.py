@@ -75,11 +75,11 @@ WSGI_APPLICATION = 'orm_skeleton.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "django_queries_exercises_db",
-        "USER": "postgres",
-        "PASSWORD": "Nokiapower1",
-        "HOST": "127.0.0.1",
-        "PORT": "5433",
+        "NAME": "",
+        "USER": "",
+        "PASSWORD": "",
+        "HOST": "",
+        "PORT": "",
     }
 }
 
