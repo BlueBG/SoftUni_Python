@@ -1,1 +1,2 @@
-# Python_DB_SoftUni
+# Python_Advanced_SoftUni
+SoftUni - Python Course
