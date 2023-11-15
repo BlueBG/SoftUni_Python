@@ -12,3 +12,4 @@ django.setup()
 # Create queries within functions
 def add_git():
     pass
+ kur za putkite
