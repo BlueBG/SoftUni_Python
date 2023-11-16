@@ -10,3 +10,6 @@ django.setup()
 # Create queries within functions
 def git_test():
     pass
+
+def new_git_test():
+    ...
