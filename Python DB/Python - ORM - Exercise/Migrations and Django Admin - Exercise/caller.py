@@ -11,6 +11,3 @@ django.setup()
 
 
 
-#This is Github upload test
-dsfadfasdfadsfdsafsdaf
-dfadsfasdfasdfasdf
