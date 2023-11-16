@@ -144,3 +144,5 @@ class Item(models.Model):
         default='empty',
     )
 
+class Test(models.Model):
+    pass
