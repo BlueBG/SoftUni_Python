@@ -8,3 +8,5 @@ django.setup()
 # Import your models here
 
 # Create queries within functions
+def git_test():
+    pass
