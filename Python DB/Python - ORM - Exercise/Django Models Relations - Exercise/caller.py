@@ -8,9 +8,3 @@ django.setup()
 # Import your models here
 
 # Create queries within functions
-
-
-
-#This is Github upload test
-dsfadfasdfadsfdsafsdaf
-dfadsfasdfasdfasdf

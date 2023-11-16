@@ -1,4 +1,4 @@
-from django.db import models
+/from django.db import models
 
 
 # Create your models here.
@@ -144,3 +144,5 @@ class Item(models.Model):
         default='empty',
     )
 
+class Test(models.Model):
+    pass
